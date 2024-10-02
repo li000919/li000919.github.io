@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week4</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Week 4 learning</h1>
+    </header>
+    
+    <main>
+        <!-- Learning about img tag -->
+         <h2>Image tag example</h2>
+         <img src="./images/coffee-shop.jpg" alt="coffee cups with coffee beans" width="500">
+         <a href="#cakes">Jump to cakes menu</a>
+         <img src="./images/coffee-shop.jpg" title="coffee cups with coffee beans" width="500">
+         
+         <!-- Learning about a tags -->
+        <h2>Link tag example</h2>
+        <p>Here is the link to visit <a href="https://www.google.com" target="_blank">Google Homeage</a>.</p>
+        <a href="./thanks.html">Thank You page.</a>
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at,
+        dignissimos ratione doloremque rerum non rem cum laudantium quia consectetur,
+        saepe perferendis aperiam iste reprehenderit fugit ipsa, excepturi impedit.
+        Saepe.
+        </p>
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at,
+        dignissimos ratione doloremque rerum non rem cum laudantium quia consectetur,
+        saepe perferendis aperiam iste reprehenderit fugit ipsa, excepturi impedit.
+        Saepe.
+        </p>
+        <ul id="cakes">
+            <li>Red Velvet</li>
+            <li>Tiramisu</li>
+            <li>Black Forest</li>
+        </ul>
+        <!-- table in html -->
+         <h2>Simple HTML Table</h2>
+         <table>
+            <caption>Student grade information</caption>
+            <thead>
+                <tr>
+                    <th>Studnet Name</th>
+                    <th>Course Name</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Smith</td>
+                    <td>Web dev 1</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Mel</td>
+                    <td>Web dev 2</td>
+                    <td>A+</td>
+                </tr>
+            </tbody>
+         </table>
+        
+        <h2>Merging table</h2>
+        <table>
+            <caption>Fake Data</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Days</th>
+                    <th colspan="2">Month</th>
+                </tr>
+                <tr>
+                    <th>Mon</th>
+                    <th>Wed</th>
+                    <th>Jan</th>
+                    <th>Sep</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Form element -->
+         <h2>HTML Form Elements</h2>
+         <form action="thanks.html" method="get">
+            <label for="Fullname">Name:</label>
+            <input type="text" id="Fullname" placeholder="John" name="fullname" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="0" max="20" step="2" name="age">
+
+            <button type="submit">Send</button>
+         </form>
+
+         <form action="thanks.html" method="post">
+            <label for="message">Your Message</label>
+            <textarea id="message"></textarea>
+          </form>
+
+    </main>
+</body>
+</html>
