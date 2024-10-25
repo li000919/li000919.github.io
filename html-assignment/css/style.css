@@ -1,0 +1,72 @@
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #333;
+}
+
+.site-title{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 2rem 0 0.5rem 0;
+}
+
+.site-title,.footer {
+    background-color:#845EC2;
+    color: mintcream;
+}
+
+.menu {
+    margin: 1rem 0.5rem;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu li {
+    margin: 0.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color:#FEFEDF;
+    border: 2mm ridge #845EC2;
+    padding: 0.5rem 1rem;
+    color: #333;
+}
+
+.menu a:hover {
+    background-color: #845EC2;
+    color:white;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+    margin: 1rem 0.5rem;
+}
+
+.quote {
+    margin: 1rem 0;
+}
+
+.link {
+    color: blueviolet;
+}
+
+.main ul{
+    list-style: square;
+    padding: 2rem;
+}
+
+article li:nth-child(odd) {
+    background-color: #FEFEDF;
+}
+
