@@ -1,0 +1,85 @@
+.container {
+    max-width: 90vw;
+    margin: auto;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.5;
+    font-family: Titillium Web;
+}
+
+header {
+    background-color: #333333;
+    color:white;
+    padding: 10rem 0;
+    text-align: center;
+    background-image: url(../images/bread.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0 0.5rem;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul li a{
+    color:white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #f4e2a1;
+    color: #333333;
+    font-weight: 600;
+    
+}
+
+#breakfast {
+    max-width: 90%;
+}
+
+section {
+    background-color: #f4f4f4;
+    padding: 1 rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #333333;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+aside {
+    background-color: #f4e2a1;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align:center ;
+    background-color: #333333;
+    color: #f4f4f4;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+
