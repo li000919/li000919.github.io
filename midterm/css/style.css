@@ -23,6 +23,9 @@
 /* use position to define the banner part */
 .banner {
     position: relative;
+}
+
+.banner img {
     width: 100%;
 }
 
@@ -33,7 +36,7 @@
     font-weight: 300;
     width: 100%;
     text-align: center;
-    bottom: 2rem;
+    bottom: 3.5rem;
 }
 
 /* position,typo,display of the menu */
