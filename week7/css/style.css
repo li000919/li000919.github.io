@@ -1,0 +1,82 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+/* Box modal */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+    outline: 5px solid darkred;
+}
+
+/* Box modal */
+.cathedral{
+  width: 400px;
+  border: 6px solid #111;
+  margin: 0 auto;
+}
+
+figure{
+  margin: 10px;
+}
+
+figcaption{
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px;
+  font-weight: bold;
+  background:#111;
+  color: #fff;
+}
+
+img{
+  width:100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Float */
+.article{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.article img{
+  width: 200px;
+  float: left;
+  margin: 0 1rem;
+}
+
+/* boxes */
+.boxes{
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.purple, .blue, .green, .orange{
+  width: 25%;
+  height: 100px;
+}
+
+.purple{
+  background: purple;
+}
+.blue{
+  background: blue;
+}
+.green{
+  background: green;
+}
+.orange{
+  background: orange;
+}
