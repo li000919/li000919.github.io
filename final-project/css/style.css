@@ -1,0 +1,290 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+  
+/* ---------overall body style--------- */
+.body {
+    background-color:#fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 1.25em;
+}
+
+/* body font style */
+.body h4 {
+    font-size: 1.25em;
+}
+
+.body h3 {
+    font-size: 2em;
+}
+
+.body h2 {
+    font-size: 3em;
+}
+
+.body h1 {
+    font-size: 4em;
+}
+
+.body h1, h2, h3, h4 {
+    font-weight:bold;
+    line-height: 1.25em;
+}
+
+.body p {
+    margin-bottom: 0.5em;
+}
+
+/* ---------header style--------- */
+.header {
+    background-color: #222222;
+    color: #bf8d31;
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav style */
+.nav_content {
+    margin: 1em;
+}
+
+.header_logo{
+    background-color: #bf8d31;
+    display: block;
+}
+
+.header_logo img {
+    height: 60px;
+    padding-top: 0.5em;
+}
+
+/* nav text style */
+.header li {
+    padding: 1.5em;
+    text-align: center;
+}
+
+.header li:nth-child(1) {
+    background-color: #bf8d31;
+    color: #222222;
+}
+
+/* search bar style */
+.header_form {
+    display: flex;
+}
+
+.header_form_input {
+    width: 90%;
+    height: 30px;
+}
+
+.header_form_btn {
+    border: #bf8d31 1px solid;
+    background-color: #222222;
+    width: 8%;
+    height: 30px;
+}
+
+/* ---------banner style--------- */
+/* banner img style */
+.banner_content {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 5em 0em;    /* give space to the text area */
+}
+
+/* banner_text style */
+.banner_text { 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fafafa;
+    padding: 2em 1em 1rem 1rem;
+}
+
+.banner_text p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.banner_text button {
+    width: 10em;
+    height: 5em;
+    border: none;
+    background-color:#bf8d31;
+    color: #222222;
+}
+
+/* ---------about us style--------- */
+.about {
+    background-color: #fbe6b3;
+    padding: 1em;
+}
+
+/* img style */
+.about img {
+    width: 100%;
+}
+
+/* ---------service introducation style--------- */
+.services {
+    margin: 2em 1em;
+}
+
+/* background of each part */
+.services_digital, .services_marketing, .services_video, .services_web, .services_print {
+    background-color: #fbe6b3;
+    margin: 1em 0;
+}
+
+/* button style of each part */
+.services_btn {
+    width: 10em;
+    height: 4em;
+    background-color: #222222;
+    color: #fafafa;
+    border: none;
+    margin-bottom: 1em;
+}
+
+.btn_marketing {
+    width: 12em;
+}
+
+/* img style of each part */
+.services img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* text&button layout of each part */
+.services_text {
+    margin: 1em;
+}
+
+.services_text p {
+    margin: 1em 0;
+}
+
+/* ---------vision part style--------- */
+/* background img style */
+.vision {
+    background-image: url(../images/vision.jpg);
+    padding: 1em;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* text layout */
+.vision_content {
+    color: #fafafa;
+    margin: 1em;
+}
+
+.vision_content p {
+    margin: 1em 0;
+}
+
+/* button img style */
+.vision_btn {
+    width: 10em;
+    height: 4em;
+    color: #fafafa;
+    border: #bf8d31 1px solid;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ---------team part style--------- */
+/* text style */
+.team {
+    margin:2em 1em;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team_text {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+/* bg color */
+.john, .bob {
+    background-color: #fbe6b3;
+}
+
+/* horizontal line style */
+.team_text h4 {
+    border-bottom: #bf8d31 1.5px solid;
+    margin-bottom: 1em;
+}
+
+/* ---------contact form style--------- */
+/* form text layout */
+.contact {
+    padding: 1em;
+}
+
+.contact h2, .contact h3 {
+    margin: 0.5em 0;
+}
+
+/* form layout */
+.form_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_btn {
+    background-color: #222222;
+    color: #bf8d31;
+    display: inline;
+}
+
+/* open hour infromation style */
+.hour_table {
+    width: 100%;
+}
+
+/* headline style */
+.hour_table thead tr {
+    background-color: #fbe6b3;
+    order: 1px solid #222222;
+    padding: 1em;
+}
+
+/* items style */
+.hour_table td, .hour_table tr, .hour_table th {
+    border: 1px solid #222222;
+    padding: 1em;
+}
+
+/* map style */
+.map {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* ---------footer style--------- */
+.footer {
+    background-color: #222222;
+    color: #bf8d31;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.footer a {
+    color: #bf8d31;
+}
+
+.footer p {
+    margin: 1.6em;
+}
