@@ -61,16 +61,30 @@
     padding-top: 0.5em;
 }
 
-/* nav text style */
-.header li {
+/* nav layout and background */
+.nav_content li {
     padding: 1.5em;
     text-align: center;
 }
 
-.header li:nth-child(1) {
+.nav_content li:first-child {
     background-color: #bf8d31;
     color: #222222;
 }
+
+/* the style of the bav_text */
+.nav_content a {
+    text-decoration: none;
+    color:#bf8d31;
+}
+
+.nav_content li:first-child a {
+    color: #222222; 
+  }
+  
+.nav_content li:not(:first-child) a {
+    color: #bf8d31; 
+  }
 
 /* search bar style */
 .header_form {

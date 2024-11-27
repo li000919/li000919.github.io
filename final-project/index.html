@@ -17,13 +17,13 @@
                 <img src="./images/logo.png" alt="logo of the website">
             </div>
             <!-- menu part of the webstie -->
-            <nav>
+            <nav id="home">
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Team</li>
-                    <li>Contact</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <!-- search bar of the webstie -->
@@ -49,7 +49,7 @@
         </section>
 
         <!-- about us part -->
-        <section class="about">
+        <section class="about" id="about">
                 <img src="./images/about-us.jpg" alt="about_us">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
@@ -57,7 +57,7 @@
         </section>
 
         <!-- service introducation part -->
-        <section class="services">
+        <section class="services" id="services">
             <h2>Our Services</h2>
         
             <div class="services_digital">
@@ -116,7 +116,7 @@
         </section>
 
         <!-- team introducation part -->
-        <section class="team">
+        <section class="team" id="team">
             <h2>Our Team</h2>
 
             <div class="john">
@@ -139,7 +139,7 @@
         </section>
 
         <!-- contact part -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <h2>Contact Us</h2>
         <!-- contact form -->
             <div class="contact_form">
@@ -168,7 +168,7 @@
                 </form>
             </div>
         <!-- open hour -->
-            <div>
+            <div class="operation_hour">
                 <h3>Hours of operation</h3>
                 <table class="hour_table">
                     <thead>
@@ -191,7 +191,7 @@
                 </table>
             </div>
         <!-- location -->
-            <div>
+            <div class="location">
                 <h3>Location</h3>
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.9628624354655!2d-75.76896130642089!3d45.34918709999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1szh-CN!2sca!4v1732404204512!5m2!1szh-CN!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -201,6 +201,7 @@
     <footer class="footer">
         <p>&copy; Copyright Three Star Media, 2020</p>
         <p>All images are taken from <a href=“https://unsplash.com/”>Unsplash</a></p>
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
     </footer>
 </body>
 </html>
