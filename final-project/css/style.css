@@ -14,10 +14,6 @@
 }
 
 /* body font style */
-.body h4 {
-    font-size: 1.25em;
-}
-
 .body h3 {
     font-size: 2em;
 }
@@ -32,14 +28,17 @@
 
 .body h1,
 h2,
-h3,
-h4 {
+h3 {
     font-weight: bold;
-    line-height: 1.25em;
+    line-height: 2em;
 }
 
 .body p {
     margin-bottom: 0.5em;
+}
+
+.button_triangle {
+    margin-left: 8px;
 }
 
 /* ---------header style--------- */
@@ -64,28 +63,38 @@ h4 {
 
 /* nav layout and background */
 .nav_content li {
-    padding: 1.5em;
+    /* padding: 1.5em; */
     text-align: center;
 }
 
-.nav_content li:first-child {
+/* ---------don't need style the 1st menu--------- */
+/* .nav_content li:first-child {
     background-color: #c78c06;
     color: #222222;
-}
+} */
 
 /* the style of the nav_text */
 .nav_content a {
+    display: inline-block;
+    width: 100%;
+    padding: 1.5em;
     text-decoration: none;
     color: #c78c06;
 }
 
-.nav_content li:first-child a {
+.nav_content a:hover, .nav_content a:focus {
+    background-color: #c78c06;
+    color: #222222;
+}
+
+/* ---------don't need to style the 1st menu--------- */
+/* .nav_content li:first-child a {
     color: #222222;
 }
 
 .nav_content li:not(:first-child) a {
     color: #c78c06;
-}
+} */
 
 /* search bar style */
 .header_form {
@@ -124,7 +133,7 @@ h4 {
 /* banner_text style */
 .banner_text {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fafafa;
     padding: 2em 1em 1rem 1rem;
 }
@@ -250,21 +259,20 @@ h4 {
     background-color: #ffe6ac;
 }
 
+/* title style */
+.team_title {
+    font-weight: 700;
+}
 /* horizontal line style */
-.team_text h4 {
-    border-bottom: #c78c06 1.5px solid;
-    margin-bottom: 1em;
+.hr {
+    height: 2px;
+    background-color: #c78c06;
 }
 
 /* ---------contact form style--------- */
 /* form text layout */
 .contact {
     padding: 1em;
-}
-
-.contact h2,
-.contact h3 {
-    margin: 0.5em 0;
 }
 
 /* form layout */
@@ -334,12 +342,6 @@ h4 {
     }
 
     /* ---------header style--------- */
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
     /* nav layout */
     .nav_content {
         display: flex;
@@ -357,6 +359,9 @@ h4 {
     .nav_content ul {
         display: flex;
     }
+
+    
+
 
     /* btn layout */
     .header_form_btn {
